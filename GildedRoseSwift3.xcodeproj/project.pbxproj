@@ -48,14 +48,14 @@
 		D1FE5EA31E1FAB0500EC65A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1FE5EAC1E1FAB2200EC65A4 /* GildedRose.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GildedRose.swift; sourceTree = "<group>"; };
 		D1FE5EAE1E1FAB3E00EC65A4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		D1FE5EB11E1FDFAA00EC65A4 /* QualityControlFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityControlFactory.swift; sourceTree = "<group>"; };
-		D1FE5EB31E1FDFEA00EC65A4 /* SulfurasQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SulfurasQualityControl.swift; sourceTree = "<group>"; };
-		D1FE5EB51E1FE00700EC65A4 /* BrieQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrieQualityControl.swift; sourceTree = "<group>"; };
-		D1FE5EB71E1FE02100EC65A4 /* NormalQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalQualityControl.swift; sourceTree = "<group>"; };
-		D1FE5EB91E1FE03700EC65A4 /* QualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualityControl.swift; sourceTree = "<group>"; };
-		D1FE5EBB1E1FE05900EC65A4 /* BackstageQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackstageQualityControl.swift; sourceTree = "<group>"; };
-		D1FE5EBE1E1FE07900EC65A4 /* SellInControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SellInControl.swift; sourceTree = "<group>"; };
-		D1FE5EC01E1FE09F00EC65A4 /* ConjuredQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConjuredQualityControl.swift; sourceTree = "<group>"; };
+		D1FE5EB11E1FDFAA00EC65A4 /* QualityControlFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QualityControlFactory.swift; path = GildedRoseSwift3/QualityControls/QualityControlFactory.swift; sourceTree = SOURCE_ROOT; };
+		D1FE5EB31E1FDFEA00EC65A4 /* SulfurasQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SulfurasQualityControl.swift; path = GildedRoseSwift3/QualityControls/SulfurasQualityControl.swift; sourceTree = SOURCE_ROOT; };
+		D1FE5EB51E1FE00700EC65A4 /* BrieQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrieQualityControl.swift; path = GildedRoseSwift3/QualityControls/BrieQualityControl.swift; sourceTree = SOURCE_ROOT; };
+		D1FE5EB71E1FE02100EC65A4 /* NormalQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NormalQualityControl.swift; path = GildedRoseSwift3/QualityControls/NormalQualityControl.swift; sourceTree = SOURCE_ROOT; };
+		D1FE5EB91E1FE03700EC65A4 /* QualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QualityControl.swift; path = GildedRoseSwift3/QualityControls/QualityControl.swift; sourceTree = SOURCE_ROOT; };
+		D1FE5EBB1E1FE05900EC65A4 /* BackstageQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackstageQualityControl.swift; path = GildedRoseSwift3/QualityControls/BackstageQualityControl.swift; sourceTree = SOURCE_ROOT; };
+		D1FE5EBE1E1FE07900EC65A4 /* SellInControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SellInControl.swift; path = GildedRoseSwift3/SellInControl/SellInControl.swift; sourceTree = SOURCE_ROOT; };
+		D1FE5EC01E1FE09F00EC65A4 /* ConjuredQualityControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConjuredQualityControl.swift; path = GildedRoseSwift3/QualityControls/ConjuredQualityControl.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,8 @@
 				D1FE5EC01E1FE09F00EC65A4 /* ConjuredQualityControl.swift */,
 			);
 			name = QualityControls;
-			sourceTree = "<group>";
+			path = GildedRoseSwift3/QualityControls;
+			sourceTree = SOURCE_ROOT;
 		};
 		D1FE5EBD1E1FE06700EC65A4 /* SellInControl */ = {
 			isa = PBXGroup;
@@ -140,7 +141,8 @@
 				D1FE5EBE1E1FE07900EC65A4 /* SellInControl.swift */,
 			);
 			name = SellInControl;
-			sourceTree = "<group>";
+			path = GildedRoseSwift3/SellInControl;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -462,6 +464,7 @@
 				D1FE5EA81E1FAB0500EC65A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D1FE5EA91E1FAB0500EC65A4 /* Build configuration list for PBXNativeTarget "GildedRoseSwift3Tests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +473,7 @@
 				D1FE5EAB1E1FAB0500EC65A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
